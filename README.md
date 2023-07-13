@@ -22,7 +22,7 @@ The dispose() function is triggered when the widget/state object is removed.
 ### Container versus Padding  
 If you need color and margin use Container() else use Padding().  
 
-### FlatButton is deprecated instead use TextButton.
+
 
 ### Row and Column  
 The main axis is the x-axis, and the cross-axis is the y-axis.  
@@ -34,3 +34,7 @@ The main axis is the x-axis, and the cross-axis is the y-axis.
 A stack structure puts screens on top of each other.  
 So when you go to the location screen there is a home screen at the back.  
 When you go to the home screen the location screen is removed.  
+
+## Deprecated  
+FlatButton is deprecated instead use TextButton.  
+RaisedButton is deprecated instead use ElevatedButton.  
