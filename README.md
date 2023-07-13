@@ -22,8 +22,6 @@ The dispose() function is triggered when the widget/state object is removed.
 ### Container versus Padding  
 If you need color and margin use Container() else use Padding().  
 
-
-
 ### Row and Column  
 The main axis is the x-axis, and the cross-axis is the y-axis.  
 
@@ -34,6 +32,13 @@ The main axis is the x-axis, and the cross-axis is the y-axis.
 A stack structure puts screens on top of each other.  
 So when you go to the location screen there is a home screen at the back.  
 When you go to the home screen the location screen is removed.  
+
+### To search packages
+https://pub.dev/packages?q=sdk%3Aflutter
+
+### To add dependencies
+Go to pubspec.yaml > and add the dependency for example:
+http: ^1.1.0
 
 ## Deprecated  
 FlatButton is deprecated instead use TextButton.  
