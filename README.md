@@ -40,6 +40,15 @@ https://pub.dev/packages?q=sdk%3Aflutter
 Go to pubspec.yaml > and add the dependency for example:
 http: ^1.1.0
 
+### Passing router data
+```
+    Navigator.pushReplacementNamed(context, '/home', arguments: {
+      'location': instance.location,
+      'flag': instance.flag,
+      'time': instance.time,
+    });
+```
+
 ## Deprecated  
 FlatButton is deprecated instead use TextButton.  
 RaisedButton is deprecated instead use ElevatedButton.  
